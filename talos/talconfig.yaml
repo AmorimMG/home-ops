@@ -39,7 +39,7 @@ nodes:
           ip: "192.168.0.200"
   - hostname: "k8s-1"
     ipAddress: "192.168.0.224"
-    installDisk: "/dev/sdb"
+    installDisk: "/dev/nvme0n1"
     machineSpec:
       secureboot: false
     talosImageURL: factory.talos.dev/installer/376567988ad370138ad8b2698212367b8edcb69b5fd68c80be1f2ec7d603b4ba
@@ -58,7 +58,7 @@ nodes:
           ip: "192.168.0.200"
   - hostname: "k8s-2"
     ipAddress: "192.168.0.97"
-    installDisk: "/dev/sda"
+    installDisk: "/dev/nvme0n1"
     machineSpec:
       secureboot: false
     talosImageURL: factory.talos.dev/installer/376567988ad370138ad8b2698212367b8edcb69b5fd68c80be1f2ec7d603b4ba
